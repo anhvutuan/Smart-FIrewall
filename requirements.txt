@@ -1,0 +1,10 @@
+pytest
+Appium-Python-Client
+selenium
+requests
+colorlog
+pylint
+allure-pytest
+pyyaml
+webdriver_manager
+asyncio

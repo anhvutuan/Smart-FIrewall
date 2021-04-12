@@ -1,0 +1,60 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N806" />
+          <option value="N803" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="type" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="src.utils.appium_driver.driver" />
+          <option value="src.apps.iphone.base_screen_iphone.*" />
+          <option value="tests.poc.elements.*" />
+          <option value="src.utils.allure_report.*" />
+          <option value="tests.v320.group_2.kanbans.get.positive.test_200_valid_get_kanbans_by_min_del_id.*" />
+          <option value="tests.master_test.abc" />
+          <option value="tests.master_test.MasterTest.*" />
+          <option value="src.utils.element_action_util.driver" />
+          <option value="src.utils.element_finder_util.driver" />
+          <option value="src.pages.login_page.driver_flo_web" />
+          <option value="src.pages.login_page.driver_web" />
+          <option value="src.flo_web_pages.login_page.driver_web" />
+          <option value="src.flo_ios_screens.home_screen.driver_ios" />
+          <option value="src.flo_ios_screens.note_screen.driver_ios" />
+          <option value="src.flo_ios_screens.new_note_screen.driver_ios" />
+          <option value="src.flo_web_pages.home_page.driver_web" />
+          <option value="src.flo_web_pages.base_page.driver_web" />
+          <option value="src.flo_web_pages.pages.login_page.driver_web" />
+          <option value="src.flo_web_pages.pages.home_page.driver_web" />
+          <option value="src.flo_web_pages.pages.base_page.driver_web" />
+          <option value="src.flo_web_pages.fragments.notes_panel.driver_web" />
+          <option value="src.flo_ios.screens.home_screen.driver_ios" />
+          <option value="src.flo_ios.screens.note_screen.driver_ios" />
+          <option value="src.flo_ios.screens.new_note_screen.driver_ios" />
+          <option value="src.flo_web.fragments.notes_panel.driver_web" />
+          <option value="src.flo_web.flo_web.driver_web" />
+          <option value="src.flo_ios.screens.note_detail_screen.driver_ios" />
+          <option value="src.flo_web.pages.home_page.driver_web" />
+          <option value="src.flo_ipad.screens.home_screen.driver_ipad" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="ShellCheck" enabled="true" level="ERROR" enabled_by_default="true">
+      <shellcheck_settings value="SC2038,SC2046,SC2086,SC2223" />
+    </inspection_tool>
+  </profile>
+</component>
